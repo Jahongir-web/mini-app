@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+	<title>Bootstrap starter</title>
+	<link href="fontawesome/css/all.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+	<div class="container-sm">
+		<div class="row p-4">
+			<div class="col-6 m-auto">
+				<h2 class="h3 text-dark text-center">Temperatura konvertlari</h2>
+				<form class="js-temp-form" action="https://echo.htmlacademy.ru" method="GET" aria-label="form">
+					<div class="d-flex mb-2 flex-column">
+						<label class="form-label-celsiy" for="celsiy">Harorat celsiyda</label>
+						<input class="js-temp-input-celsiy w-100 ml-auto" autocomplete="off" type="text" inputmode="numeric" name="number" id="celsiy" placeholder="30C" >
+					</div>
+					<div class="d-flex mb-4 flex-column">
+						<span>
+							<span class="form-label-frang">Harorat Frangeytda: </span>
+							<span class="js-temp-input-frang w-100 border-0 text-danger">
+							</span>
+						</span>
+
+						<div class="d-flex">
+							<button class="btn btn-success m-auto" type="submit">Hisobla</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+
+		<hr>
+		<hr>
+		<hr>
+		<hr>
+
+		<div class="container pt-5">
+			<h1 class="text-center">Kim birinchi bo-rish-ga!</h1>
+
+			<form action="https://echo.htmlacademy.ru" class="travel-form form-control d-flex h-100 justify-content-center" method="GET">
+
+				<span class="h4 mr-5">Masofa</span>
+				<input class="demo-input mr-5" type="number">
+				<button class="btn btn-dark">Hisobla</button>
+			</form>
+			<div class="row justify-content-between">
+				<div class="col-2 m-1 mt-3 rounded border text-center pt-3 pb-3">
+					<i class="fas fa-walking fa-3x"></i>
+					<p>Piyoda</p>
+					<p><span class="span-1">N</span></p>
+				</div>
+
+				<div class="col-2 m-1 mt-3 rounded border text-center pt-3 pb-3">
+					<i class="fas fa-bicycle fa-3x"></i>
+					<p>Velosipedda</p>
+					<p><span class="span-2">N</span></p>
+				</div>
+
+				<div class="col-2 m-1 mt-3 rounded border text-center pt-3 pb-3">
+					<i class="fas fa-car fa-3x"></i>
+					<p>Mashinada</p>
+					<p><span class="span-3">N</span></p>
+				</div>
+
+				<div class="col-2 m-1 mt-3 rounded border text-center pt-3 pb-3">
+					<i class="fas fa-plane fa-3x"></i>
+					<p>Samolyotda</p>
+					<p><span class="span-4">N</span></p>
+				</div>
+			</div>
+		</div>
+
+		<hr>
+		<hr>
+		<hr>
+		<hr>
+
+
+		<div class="container d-flex justify-content-center flex-column">
+			<p class="text-center h5 mb-3">Yugurishga chiqamizmi?</p>
+			<h1 class="jog-heading text-center mb-5">
+				<span class="yes mr-3">HA</span> /
+				<span class="no ml-3">YO'Q</span>
+			</h1>
+			<div class="col-6 flex-column m-auto">
+				<form class="js-jog-form mb-5" action="https://echo.htmlacademy.ru" method="GET">
+					<label for="jog-input-id">Havo harorati</label>
+					<input class="jog-input" type="number" inputmode="numeric" name="number" id="jog-input-id">
+					<div class="d-flex align-items-center">
+						<input class="rain-input mr-3" type="checkbox" aria-label="Is raining" id="rain-id">
+						<label for="rain-id">Yomg'ir yog'ayaptimi?</label>
+					</div>
+					<div class="d-flex align-items-center">
+						<input class="zal-input mr-3" type="checkbox" aria-label="Is zal open" id="zal-id">
+						<label for="zal-id">Zal ochiqmi?</label>
+					</div>
+				</form>
+			</div>
+		</div>
+
+
+
+		<script src="js/jquery-3.5.1.min.js"></script>
+		<script src="js/bootstrap.bundle.min.js"></script>
+		<script src="js/scripts.js"></script>
+	</body>
+	</html>
